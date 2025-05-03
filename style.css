@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0px 30px 0 var(--primary-color),
+    0 0px 30px 0 var(--primary-color);
+}
+h1 {
+  color: var(--primary-color);
+}
+p {
+  color: var(--secondary-color);
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
