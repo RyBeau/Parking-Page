@@ -12,10 +12,9 @@ body {
 }
 .container {
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000;
   border-radius: 8px;
-  box-shadow: 0 0px 30px 0 var(--primary-color),
-    0 0px 30px 0 var(--primary-color);
+  box-shadow: 0 0 20px 0 var(--primary-color), 0 0 20px 0 var(--primary-color);
 }
 h1 {
   color: var(--primary-color);
