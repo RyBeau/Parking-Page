@@ -3,6 +3,10 @@
   --secondary-color: #6c757d;
 }
 
+html {
+  background-color: #000;
+}
+
 body {
   height: 100vh;
   margin: 0;
